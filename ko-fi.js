@@ -20,7 +20,7 @@ var kofiwidget2 =
         html =
           "<link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>";
         html +=
-          '<div class=btn-container><a title="Support me on ko-fi.com" style="width:inherit" class="kofi-button" style="background-color:[color];" href="https://ko-fi.com/[id]" target="_blank"> <span class="kofitext"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg"/>[text]</span></a></div>';
+          '<div class=btn-container><a title="Support me on ko-fi.com" class="kofi-button" style="background-color:[color];width:inherit;" href="https://ko-fi.com/[id]" target="_blank"> <span class="kofitext"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg"/>[text]</span></a></div>';
       },
       getHTML: function () {
         var rtn =
